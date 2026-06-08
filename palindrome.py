@@ -1,3 +1,12 @@
+My_list = ["mummy", "hannah", "murder for a jar of red rum", "mom", "seagull", "tomato", "nolemonnomelon", "some men interpret nine memos", "madam"]
+for item in My_list:
+    clean_item = item.replace(" ", " ").replace(",", "").lower()
+    reversed_item = clean_item[::-1]
+    if clean_item == reversed_item:
+        print(item, "is Palindrome. ")
+    else:
+        print(item, "is not a palindrome.")
+        
 #To write a cod that will take in a list and check if the individual members of the list are palindromes
 
 #write a list of both palindromes and non-palindromes
